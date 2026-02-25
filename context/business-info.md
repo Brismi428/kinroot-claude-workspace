@@ -11,25 +11,38 @@ This file provides background on the organization or business you operate within
 
 ## Organization Overview
 
-<!-- REPLACE the example below with your actual business -->
+Kinroot is a personal household OS for parents carrying the mental load. It's a single-user command center — one parent logs in and manages everything about their household from one place. This is NOT a family app, NOT a co-parenting tool, and NOT a multi-user platform. Think of it as a productivity tool purpose-built for the unique chaos of single parenthood.
 
-**Example:** Acme Corp is a B2B SaaS company that provides project management tools for mid-market construction firms. Founded in 2020, we serve ~400 customers across the US and Canada. Our mission is to eliminate the communication gaps that cause construction delays and cost overruns.
+The core insight: single parents don't need another app that assumes two adults are coordinating. They need a tool that respects the reality of doing it all alone and makes that easier.
 
-## Products / Services / Focus Areas
+## Product
 
-<!-- REPLACE with your actual offerings -->
+Kinroot is a Next.js 15 SaaS application with 5 core modules:
 
-**Example:**
-- **Acme PM** — our core project management platform (web + mobile), $299/mo per team
-- **Acme Docs** — document management add-on, launched 6 months ago, $99/mo
-- **Professional Services** — onboarding and custom workflow setup, billed hourly
+- **Root Planner** — Household dashboard and task management hub
+- **Calendar** — Family schedule management with event tracking
+- **Mealflow** — Meal planning and grocery organization
+- **Village Network** — Local community for single parents (privacy-first, with 3-mile fuzzy geolocation)
+- **Task Management** — Kanban-style task boards for household organization
+
+### Subscription Tiers
+
+| Tier | Price | Key Features |
+|------|-------|--------------|
+| Free | $0/mo | 1 child limit, core features |
+| Plus | $12.99/mo | Unlimited children, full access |
+| Premium Plus | $24.99/mo | Everything in Plus + AI-powered features |
 
 ## Key Context
 
-<!-- REPLACE with important background Claude should know -->
-
-**Example:** We're a 35-person team (Series A, raised $8M in 2023). We're profitable on a unit-economics basis but still burning ~$80K/month on growth. The market is competitive — Procore is the 800lb gorilla, and there are 3-4 newer entrants targeting the same mid-market segment. Our differentiation is simplicity and speed of onboarding (avg 2 days vs. industry standard of 2-4 weeks). We're entering a critical phase: need to hit $5M ARR by end of year to position for Series B.
+- **Stage:** Closed beta with 17 invited testers. MVP is complete.
+- **Scale:** 13 pages, 22+ API routes, 15 database tables
+- **Tech stack:** Next.js 15, React 19, Supabase (auth + DB), Stripe (payments), Tailwind CSS v4, shadcn/ui
+- **Beta mechanics:** Auto-activation on signup — marks `is_beta_tester = true`, grants 3-month free Plus, sets 20% lifetime discount for post-beta
+- **Privacy stance:** Privacy-first design. Village Network uses fuzzy geolocation (3-mile randomization) so exact locations are never exposed.
+- **Differentiation:** Single-parent focus (not generic family tools), privacy-first community, all-in-one household OS (not just one feature)
+- **Kids are data, not users.** Children are managed like calendar events — the parent enters and manages their info. Kids never log in.
 
 ---
 
-*Keep this high-level — enough to orient Claude, not a comprehensive company wiki. Delete the examples above and replace with your own content.*
+*Keep this high-level — enough to orient Claude, not a comprehensive company wiki.*

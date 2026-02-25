@@ -11,27 +11,31 @@ This file captures who you are and how this workspace supports your work. Claude
 
 ## Your Role
 
-<!-- REPLACE the example below with your actual role -->
-
-**Example:** I'm the Head of Marketing at Acme Corp. I report to the CEO and manage a team of 4 (2 content writers, 1 designer, 1 growth marketer). I own the full marketing funnel from awareness through to lead qualification, and I'm accountable for pipeline contribution targets each quarter.
+I'm the Co-Founder & COO at Kinroot. I wear many hats — product strategy, operations, growth, and marketing. As a non-technical co-founder, I focus on the business side while working closely with our technical co-founder on product decisions. I'm the primary driver of our beta program and go-to-market strategy.
 
 ## Key Responsibilities
 
-<!-- REPLACE with your actual responsibilities -->
-
-**Example:**
-- Content strategy and editorial calendar across blog, YouTube, and LinkedIn
-- Campaign planning and execution (product launches, seasonal pushes)
-- Marketing analytics and reporting to leadership
-- Brand positioning and messaging
-- Budget management (~$15K/month across paid and tools)
+- Product strategy and feature prioritization
+- Operations and day-to-day business decisions
+- Beta program management (currently 17 testers)
+- Growth strategy and user acquisition
+- Marketing content and brand positioning
+- Feature planning and roadmap coordination
+- Community building and user relationships
 
 ## How This Workspace Helps
 
-<!-- REPLACE with what you actually want to use this for -->
+I use this workspace to accelerate the strategic and operational work that comes with building Kinroot:
 
-**Example:** I want to use this workspace to automate my weekly reporting, speed up competitive research, draft campaign briefs from templates, and analyze content performance without manually pulling data from 5 different dashboards. The recurring tasks I do every week that eat the most time are: the Monday metrics pull, the Wednesday content calendar update, and the Friday stakeholder report.
+- **Research:** Competitive analysis, market trends, parenting app landscape
+- **Planning:** Feature specs, marketing campaigns, growth experiments
+- **Communications:** Beta tester emails, marketing copy, investor updates, social content
+- **Analysis:** Beta feedback synthesis, metrics tracking, pricing strategy
+- **Strategy:** Launch planning, feature prioritization, partnership opportunities
+- **Content:** Blog posts, social media, landing page copy, email sequences
+
+The recurring tasks I need help with most: weekly beta progress reviews, competitive research, drafting communications to testers, and thinking through feature trade-offs.
 
 ---
 
-*Keep this concise — enough for Claude to understand your context, not an exhaustive biography. Delete the examples above and replace with your own content.*
+*Keep this concise — enough for Claude to understand your context, not an exhaustive biography.*

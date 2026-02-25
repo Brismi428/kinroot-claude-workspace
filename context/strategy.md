@@ -11,39 +11,57 @@ This file outlines current strategic priorities. Claude reads this to understand
 
 ## Current Focus Period
 
-<!-- REPLACE with your actual timeframe -->
-
-**Example:** Q1 2026 (January - March)
+Q1 2026 (January – March)
 
 ## Strategic Priorities
 
-<!-- REPLACE with your actual priorities — aim for 2-5 -->
+### 1. Beta Feedback & Iteration
 
-**Example:**
+Collect and act on feedback from our 17 beta testers. The goal is to identify and fix UX friction, improve core flows, and validate that the product solves real problems before expanding access.
 
-1. **Hit 120 marketing-qualified leads this quarter** — We need to increase MQL volume by 30% vs. last quarter to support the sales team's pipeline targets. Primary levers are content marketing (blog + YouTube) and a new webinar series launching in February.
+- Monitor tester activity and engagement patterns
+- Prioritize bug fixes and UX improvements based on feedback
+- Ensure core modules (Calendar, Mealflow, Village, Tasks) are solid
+- Validate the free-to-Plus upgrade path works smoothly
 
-2. **Launch the Acme Docs campaign** — The docs add-on has been live for 6 months but has low awareness among existing customers. Need a targeted campaign to drive cross-sell adoption. Target: 50 existing customers trialing Docs by end of Q1.
+### 2. Growth & User Acquisition
 
-3. **Reduce cost per lead by 15%** — Our paid spend is inefficient. Need to audit current channels, kill underperformers, and double down on what's working. Current CPL is ~$125, target is $106.
+Begin building the foundation for growth beyond closed beta. This means expanding the beta cohort, establishing marketing presence, and developing a content strategy.
 
-4. **Build the content engine** — Shift from ad-hoc content to a systematic calendar with 3 blog posts/week and 1 YouTube video/week. Repurpose everything across LinkedIn and email.
+- Expand beta from 17 to a larger cohort (target TBD based on feedback quality)
+- Build marketing presence on channels where single parents spend time
+- Develop content strategy: blog posts, social content, community engagement
+- Start building an email list / waitlist for public launch
+
+### 3. New Feature Development
+
+Build out Premium Plus value proposition and key integrations that testers are requesting.
+
+- AI-powered features for Premium Plus tier (meal suggestions, smart scheduling)
+- Calendar integrations (Google Calendar, iCal sync)
+- Smart reminders and notifications
+- Continued polish on existing modules
 
 ## What Success Looks Like
 
-<!-- REPLACE with your actual success criteria -->
+By end of Q1 2026:
 
-**Example:** By end of Q1, we've hit 120 MQLs, the Docs campaign is live and showing early traction, CPL is trending toward $106, and the content calendar has been running consistently for 6+ weeks with measurable traffic growth.
+| Metric | Target |
+|--------|--------|
+| Weekly Active Engaged Users (WAEU) | 60% of beta testers by Month 3 |
+| Week 1 Retention | 80% |
+| Free → Plus Conversion | 15% |
 
-## Key Decisions or Open Questions
+Beta testers are actively using the product weekly, core flows feel polished, and we have a clear picture of what needs to happen before public launch.
 
-<!-- REPLACE with your actual open questions -->
+## Key Decisions & Open Questions
 
-**Example:**
-- Should we invest in a paid community (Slack/Discord) for customers, or is that a distraction from lead gen?
-- The CEO wants to explore a partner channel — is that my responsibility or should it sit with sales?
-- We're debating whether to hire a 5th person (SEO specialist) or outsource SEO to an agency. Need to decide by mid-February.
+- **Public launch timing:** When do we open access? What criteria need to be met?
+- **AI feature prioritization:** Which AI features deliver the most value for Premium Plus? Meal suggestions? Smart scheduling? Auto-categorization?
+- **Marketing channel strategy:** Where do single parents congregate online? Which channels give us the best ROI for early growth?
+- **Pricing validation:** Is $12.99/$24.99 the right split? Do beta testers perceive enough value in Premium Plus?
+- **Village Network moderation:** As we grow, what moderation strategy keeps the community safe without heavy overhead?
 
 ---
 
-*Update this as priorities shift. Claude uses this to help drive work in the right direction. Delete the examples above and replace with your own content.*
+*Update this as priorities shift. Claude uses this to help drive work in the right direction.*

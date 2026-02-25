@@ -6,7 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-This is a **Claude Workspace Template** — a structured environment designed for working with Claude Code as a powerful agent assistant across sessions. The user will spin up fresh Claude Code sessions repeatedly, using `/prime` at the start of each to load essential context without bloat.
+This is the **Kinroot Claude Workspace** — a structured environment designed for working with Claude Code as a powerful agent assistant for Kinroot's Co-Founder & COO. The workspace provides persistent context about Kinroot (product, strategy, metrics) so Claude can act as an informed thought partner across sessions.
+
+Use `/prime` at the start of each session to load essential context without bloat.
 
 **This file (CLAUDE.md) is the foundation.** It is automatically loaded at the start of every session. Keep it current — it is the single source of truth for how Claude should understand and operate within this workspace.
 
@@ -39,8 +41,8 @@ Claude should always orient itself through `/prime` at session start, then act w
 │   │       ├── research.md      # /research — deep-dive research on a topic
 │   │       └── draft-email.md   # /draft-email — draft a professional email
 │   └── skills/              # Reusable skill definitions
-├── context/                 # Background context about the user and project
-│                            # (User should populate with role, goals, strategies)
+├── context/                 # Background context about Kinroot and your role
+│                            # (Role, business info, strategy, metrics)
 ├── plans/                   # Implementation plans created by /create-plan
 ├── outputs/                 # Work products and deliverables
 ├── reference/               # Templates, examples, reusable patterns
@@ -53,7 +55,7 @@ Claude should always orient itself through `/prime` at session start, then act w
 
 | Directory      | Purpose                                                                                                          |
 | -------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `context/`     | Who the user is, their role, current priorities, strategies. Read by `/prime`.                                    |
+| `context/`     | Who you are, Kinroot's business context, current strategy, and key metrics. Read by `/prime`.                     |
 | `plans/`       | Detailed implementation plans. Created by `/create-plan`, executed by `/implement`.                               |
 | `outputs/`     | Deliverables, analyses, reports, and work products.                                                              |
 | `reference/`   | Helpful docs, templates and patterns to assist in various workflows.                                             |
@@ -99,17 +101,17 @@ Reads context files for current metrics and priorities, then produces a formatte
 
 **Purpose:** Conduct deep-dive research on a given topic.
 
-Produces a structured research brief in `outputs/` with findings, key takeaways, and actionable recommendations grounded in the user's context and strategic goals.
+Produces a structured research brief in `outputs/` with findings, key takeaways, and actionable recommendations grounded in Kinroot's context and strategic goals.
 
-Example: `/research emerging trends in B2B content marketing`
+Example: `/research single parent app market landscape 2026`
 
 ### /draft-email [recipient] [purpose]
 
-**Purpose:** Draft a professional email aligned with the user's voice and goals.
+**Purpose:** Draft a professional email aligned with your voice and goals.
 
 Uses context files to match tone and strategic positioning, then produces a ready-to-send draft in `outputs/`.
 
-Example: `/draft-email VP of Sales quarterly pipeline review`
+Example: `/draft-email beta testers monthly update and feedback request`
 
 ---
 

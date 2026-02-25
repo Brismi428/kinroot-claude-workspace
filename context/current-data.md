@@ -11,45 +11,51 @@ This file holds metrics, data points, and current state information relevant to 
 
 ## Key Metrics
 
-<!-- REPLACE with your actual metrics -->
-
-**Example:**
-
 | Metric | Current Value | Target | Notes |
 |--------|--------------|--------|-------|
-| MQLs (Q1 to date) | 38 | 120 | On pace for ~76, need to accelerate |
-| Website traffic (monthly) | 12,400 | 18,000 | Up 8% MoM, blog is primary driver |
-| Cost per lead | $125 | $106 | Google Ads CPL is $180, LinkedIn is $95 |
-| Blog posts published (Q1) | 9 | 36 | Slightly behind 3/week cadence |
-| YouTube subscribers | 2,100 | 3,000 | Growing ~150/month |
-| Email list size | 4,800 | 6,000 | Open rate 34%, click rate 4.2% |
-| Acme Docs trial signups | 12 | 50 | Campaign hasn't launched yet |
+| Beta testers | 17 | Expand in Q1 | Closed beta, invite-only |
+| Core modules | 5 | — | Root Planner, Calendar, Mealflow, Village, Tasks |
+| App pages | 13 | — | MVP complete |
+| API routes | 22+ | — | v1 endpoints active |
+| Database tables | 15 | — | Supabase with RLS |
+| Subscription tiers | 3 | — | Free / Plus / Premium Plus |
+
+### Revenue Targets
+
+| Milestone | Target |
+|-----------|--------|
+| Month 6 | $15K MRR |
+| Month 12 | $50K MRR |
+
+### Pricing
+
+| Tier | Monthly Price |
+|------|--------------|
+| Free | $0 |
+| Plus | $12.99 |
+| Premium Plus | $24.99 |
 
 ## Current State
 
-<!-- REPLACE with qualitative status updates -->
-
-**Example:**
-- The webinar series is in production — first one scheduled for Feb 18. Speaker confirmed, landing page draft complete.
-- Google Ads performance has degraded since January. Investigating whether it's a bidding issue or creative fatigue.
-- Content team is at capacity. The 3/week blog cadence is achievable but leaves no room for one-off requests.
-- The Docs cross-sell campaign is blocked on getting customer email segments from the product team. Follow up scheduled for Feb 10.
+- **MVP is complete.** All core modules are functional and deployed.
+- **Closed beta is active.** 17 testers have been invited with auto-activation working (auto-grants Plus for 3 months + 20% lifetime discount).
+- **Payments are live.** Stripe integration with webhook handling is operational.
+- **Auth is solid.** Supabase auth with RLS policies on all tables.
+- **Village Network is live** with fuzzy geolocation (3-mile randomization) for privacy.
+- **Task management** was recently added with Kanban-style boards.
+- **Recent work:** Password visibility toggles, date handling fixes (local time vs UTC), forum post improvements, post likes feature.
 
 ## Data Sources
 
-<!-- REPLACE with where your data comes from -->
-
-**Example:**
-- Google Analytics (website traffic, conversion rates)
-- HubSpot (MQLs, email metrics, pipeline)
-- Google Ads + LinkedIn Ads dashboards (paid metrics)
-- YouTube Studio (subscriber and video analytics)
-- Internal spreadsheet for monthly P&L and budget tracking
+- **Supabase Dashboard** — User signups, beta tester status, database metrics
+- **Stripe Dashboard** — Subscription status, payment events, revenue
+- **Beta tester feedback** — Direct feedback from the 17-person cohort
+- **Application logs** — Supabase logs for debugging and monitoring
 
 ## Automation Note
 
-This file works as a static snapshot, but can be enhanced with scripts that pull live data. Once comfortable with the workspace, consider adding a script to `scripts/` that refreshes this file from your data sources (dashboards, APIs, spreadsheets, etc.).
+This file works as a static snapshot, but can be enhanced with scripts that pull live data. Consider adding a script to `scripts/` that queries Supabase for current beta tester count, active subscriptions, and engagement metrics.
 
 ---
 
-*Update regularly — stale data limits Claude's usefulness as an analytical partner. Delete the examples above and replace with your own content.*
+*Update regularly — stale data limits Claude's usefulness as an analytical partner.*
